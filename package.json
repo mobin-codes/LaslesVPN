@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i ./LaslesvpnProject/style/global.css -o ./LaslesvpnProject/style/style.css --watch",
-    "serve": "cd LaslesvpnProject && live-server"
+    "dev": "tailwindcss -i ./src/style/global.css -o ./src/style/style.css --watch",
+    "serve": "cd src && live-server"
   },
   "author": "",
   "license": "ISC",
