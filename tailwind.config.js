@@ -12,6 +12,11 @@ module.exports = {
       fontFamily: {
         sans: ["Josefin Sans", "sans-serif"],
         alata: ["Alata"],
+        Rubik: ["Rubik"],
+      },
+      colors: {
+        primary: "#4F5665",
+        secondary: "#0B132A",
       },
       letterSpacing: {
         widest: ".3em",
