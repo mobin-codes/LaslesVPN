@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.prev,
-.next {
-  @apply rounded-full;
-}

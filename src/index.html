@@ -435,11 +435,11 @@
     <!-- Customers Section -->
     <section id="Customers">
       <!-- Customer Container -->
-      <div class="flex flex-col max-w-6xl px-6 mx-auto bg-purple-500">
+      <div class="flex flex-col max-w-6xl px-6 mx-auto py-12">
         <!-- Flex Customer -->
         <div class="flex flex-col">
           <!-- h1 -->
-          <div class="w-full md:w-96 md:mx-auto bg-red-50">
+          <div class="w-full md:w-96 md:mx-auto">
             <h1
               class="text-center font-Rubik font-semibold text-3xl leading-10 text-secondary"
             >
@@ -459,14 +459,14 @@
             class="card-slider max-w-6xl mx-auto flex flex-col gap-2 md:gap-10"
           >
             <div
-              class="card-slider-inner bg-red-500 flex flex-col md:flex-row gap-3 md:gap-5"
+              class="card-slider-inner flex flex-col md:flex-row gap-3 md:gap-5"
             >
               <!-- Crad Content -->
               <div
-                class="card bg-blue-500 py-4 px-4 border-2 border-red-600 rounded-lg flex flex-col gap-3 w-auto md:w-2/3"
+                class="card py-4 px-4 border-2 border-red-600 rounded-lg flex flex-col gap-3 w-auto md:w-2/3"
               >
                 <div class="flex justify-between">
-                  <div class="flex gap-3 bg-green-400">
+                  <div class="flex gap-3">
                     <div>
                       <img src="icon/Ellipse 175.svg" class="w-14" alt="" />
                     </div>
@@ -483,9 +483,7 @@
                       </p>
                     </div>
                   </div>
-                  <div
-                    class="flex justify-center items-center gap-2 bg-red-600"
-                  >
+                  <div class="flex justify-center items-center gap-2">
                     <h1>4.5</h1>
                     <img src="icon/Group 1161.svg" class="w-4" alt="" />
                   </div>
@@ -501,12 +499,12 @@
                 </div>
               </div>
               <div
-                class="card bg-blue-500 py-4 px-4 rounded-lg flex flex-col gap-3 w-auto md:w-2/3"
+                class="card py-4 px-4 rounded-lg flex flex-col gap-3 w-auto md:w-2/3 border-2 border-gray-300"
               >
                 <!-- Card content -->
 
                 <div class="flex justify-between">
-                  <div class="flex gap-3 bg-green-400">
+                  <div class="flex gap-3">
                     <div>
                       <img src="icon/Ellipse 175 (1).svg" class="w-14" alt="" />
                     </div>
@@ -523,9 +521,7 @@
                       </p>
                     </div>
                   </div>
-                  <div
-                    class="flex justify-center items-center gap-2 bg-red-600"
-                  >
+                  <div class="flex justify-center items-center gap-2">
                     <h1>4.5</h1>
                     <img src="icon/Group 1161.svg" class="w-4" alt="" />
                   </div>
@@ -541,10 +537,10 @@
               </div>
               <!-- Card Content -->
               <div
-                class="card bg-blue-500 py-4 px-4 rounded-lg flex flex-col gap-3 w-auto md:w-2/3"
+                class="card py-4 px-4 rounded-lg flex flex-col gap-3 w-auto md:w-2/3 border-2 border-gray-300"
               >
                 <div class="flex justify-between">
-                  <div class="flex gap-3 bg-green-400">
+                  <div class="flex gap-3">
                     <div>
                       <img src="icon/Ellipse 175.svg" class="w-14" alt="" />
                     </div>
@@ -561,7 +557,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="flex gap-2 bg-red-600">
+                  <div class="flex gap-2 justify-center items-center">
                     <h1>4.5</h1>
                     <img src="icon/Group 1161.svg" class="w-4" alt="" />
                   </div>
@@ -578,22 +574,180 @@
             </div>
             <!-- Navigation buttons -->
             <div
-              class="flex flex-col md:flex-row md:justify-end gap-2 md:gap-3"
+              class="flex-col hidden items-center md:flex md:flex-row md:justify-end gap-2 md:gap-3 md:items-end py-4 pr-20"
             >
-              <button class="prev bg-slate-200 border-2 border-red-600">
-                <img
-                  src="icon/eva_arrow-back-fill.png"
-                  class="w-10 block mx-auto"
-                />
-              </button>
-              <button class="next">
-                <img src="icon/right.svg" alt="" class="w-16 block mx-auto" />
-              </button>
+              <div class="md:p-2 rounded-full border-2 border-red-700">
+                <button class="prev">
+                  <img
+                    src="icon/left.svg"
+                    class="h-10 md:h-6 rounded-full"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="md:p-3 md:rounded-full md:bg-red-700">
+                <button class="next">
+                  <img
+                    src="icon/right.svg"
+                    class="h-10 md:h-5 bg-red-700 rounded-full"
+                    alt=""
+                  />
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <script src="Js/script.js"></script>
+    <!-- Footer Section -->
+    <section>
+      <!-- Container Footer -->
+      <div
+        class="relative max-w-6xl mx-auto pt-20 pb-6 px-6 bg-gray-100 mt-32 mb-8"
+      >
+        <!-- Flex Container -->
+        <div
+          class="flex flex-col gap-3 md:flex-row md:justify-between md:pt-10"
+        >
+          <div
+            class="flex flex-col gap-3 w-full items-center md:items-start md:w-80"
+          >
+            <img src="icon/Logo.svg" class="w-40" alt="" />
+            <p
+              class="font-medium text-base text-primary leading-8 text-center md:text-start"
+            >
+              LaslesVPN is a private virtual network that has unique features
+              and has high security.
+            </p>
+            <div class="flex">
+              <img src="icon/Facebook.svg" alt="" />
+              <img src="icon/Twitter.svg" alt="" />
+              <img src="icon/Instagram.svg" alt="" />
+            </div>
+            <p class="font-Rubik font-normal text-base leading-8">
+              ©2020LaslesVPN
+            </p>
+          </div>
+          <div class="flex flex-col items-center md:items-start md:gap-3">
+            <h1
+              class="font-Rubik font-medium text-center md:text-start text-secondary leading-8"
+            >
+              Product
+            </h1>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Download
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Pricing
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Locations
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Server
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Countries
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Blogs
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center md:items-start md:gap-3">
+            <h1
+              class="font-Rubik font-medium text-center md:text-start text-secondary leading-8"
+            >
+              Engage
+            </h1>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              LaslesVPN ?
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              FAQ
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Tutorials
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              About Us
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Privacy Policy
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Terms of Service
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center md:items-start md:gap-3">
+            <h1
+              class="font-Rubik font-medium text-center md:text-start text-secondary leading-8"
+            >
+              Earn Money
+            </h1>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Affiliate
+            </p>
+            <p
+              class="font-Rubik font-normal text-base text-primary text-center md:text-start leading-8"
+            >
+              Become Partner
+            </p>
+          </div>
+        </div>
+        <!-- Subscribe -->
+        <div
+          class="flex flex-col gap-2 absolute items-center md:flex-row md:justify-between w-auto md:w-4/5 left-0 md:-top-24 md:left-28 py-6 px-12 bg-white shadow-lg"
+        >
+          <div class="flex flex-col w-full md:w-80">
+            <h1
+              class="font-Rubik font-medium text-secondary text-center md:text-start text-3xl leading-10"
+            >
+              Subscribe Now for Get Special Features!
+            </h1>
+            <p
+              class="font-Rubik font-normal text-primary text-base leading-8 text-center md:text-start"
+            >
+              Let's subscribe with us and find the fun.
+            </p>
+          </div>
+          <div class="">
+            <button
+              class="font-Rubik font-bold leading-6 text-base text-white rounded-2xl px-12 py-3 bg-red-700"
+            >
+              Subscribe Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
   </body>
 </html>
