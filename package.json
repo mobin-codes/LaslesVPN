@@ -4,8 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./src/style/global.css -o ./src/style/style.css --watch",
-    "server": "cd src && live-server",
-    "serve": "concurrently \"npm run dev\" \"npm run server\""
+    "start": "cd src && live-server",
+    "serve": "concurrently \"npm run dev\" \"npm run start\"",
+    "build": "tailwindcss -i ./src/style/global.css -o ./src/style/style.css"
   },
   "author": "",
   "license": "ISC",
